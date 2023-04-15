@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-// O(N^2)
+// Big theta(N^2)
+// stable
+// inplace
+
 void Insertion_Sort(int *arr, int N){
     int j = 0;
     int t = 0;
@@ -13,7 +16,6 @@ void Insertion_Sort(int *arr, int N){
     }
 }
 
-
 int main(){
     int Array[20] = {4, 5, 6, 1, 8, 3, 8, 9, 99, 1, -5, 1, 0, 5, 10, 33, 2, 5, 2, 11};
     int N = 20;
@@ -23,6 +25,6 @@ int main(){
         printf("%d, ",Array[i]);
     }
     printf("\n");
-
+    
     return 0;
 }

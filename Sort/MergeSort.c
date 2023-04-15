@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-// O(NlogN)
+// Big theta(NlogN)
+// stable
+// not in-place
 
 // O(N)
 void Merge(int *arr, int *aux_arr, int left, int mid, int right){
